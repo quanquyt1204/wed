@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(to right , #ff4895, #ffd96a);
+        }
+        .login{
+            width: 200px;
+            height: 300px;
+            background-color: #fff;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .login_header{
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            margin: 32px 0px;
+            padding-top: 16px;
+        }
+        .text_login{
+            padding-left: 4px;
+            font-weight: bold;
+        }
+        .input_login{
+            width: 100%;
+            margin: 16px 0px;
+            padding: 4px 0px;
+            border: 1px solid gainsboro;
+            
+        }
+        #btn_login{
+            background-image: linear-gradient(to right , #ff4895, #ffd96a);
+            margin-top: 16px;
+            padding: 4px 32px;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="login_header">
+            <p>LOGIN</p>
+        </div>
+        <div class="submit">
+            <div class="username">
+                <p class="text_login">UserName</p>
+                <input type="text" class="input_login">
+            </div>
+            <div class="password">
+                <p class="text_login">Password</p>
+                <input type="text" class="input_login">
+            </div>
+        </div>
+        <button type="submit" id="btn_login">Continue</button>
+        <a href="login.html">Trang Chu</a>
+    </div>
+</body>
+</html>
